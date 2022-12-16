@@ -5,6 +5,7 @@
 
 use warnings;
 use strict;
+use File::Basename;
 use lib dirname (__FILE__);
 use MakefileParser;
 use Getopt::Long;
