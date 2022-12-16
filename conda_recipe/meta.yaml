@@ -14,7 +14,6 @@ requirements:
   run:
     - perl
 
-
 about:
   home: https://github.com/bidauxpoto/bawk
   summary: A wrapper on gawk that implement the ability to name the columns of the input file according to the header
