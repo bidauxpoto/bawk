@@ -18,10 +18,10 @@ $SIG{__WARN__} = sub {die @_};
 
 my $usage = "$0 [--debug] [-f makefile] [-e|extended] [-v|assing var=val] [-M|meta] '{awk program}' data_filename\n
 
--e	change the regexp used to identify named fileds: a named field like \$\$NF (with a double \$)
+-e	change the regexp used to identify named fields: a named field like \$\$NF (with a double \$)
 	is passed to awk as \$NF ad do not trigger the logic of named fields.
-	Be carrefoul with -e option: do not confuse \$NF with NF. It is usefull only if you want 
-	to use a variabile to indicate a field number or if you wont to pass shell variables to awk.
+	Be careful with the -e option: do not confuse \$NF with NF. It is useful only if you want 
+	to use a variable to indicate a field number or if you wont to pass shell variables to awk.
 
 -M	print the .META for the given file and exit
 
