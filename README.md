@@ -16,9 +16,6 @@ bawk [--debug] [-f makefile] [-e|extended] [-v|assing var=val] [-M|meta] '{awk p
                        to use a variabile to indicate a field number or if you want to pass shell variables to awk.
   -M|meta              print the .META for the given file and exit
   -v|assign var=val    assign the val to the variable var inside the bawk program
-  -f makefile          ...
-  --debug              print the command without executing it
-
 ```
 
 __________________________________
