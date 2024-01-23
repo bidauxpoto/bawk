@@ -23,4 +23,24 @@ bawk [--debug] [-f makefile] [-e|extended] [-v|assing var=val] [-M|meta] '{awk p
 
 __________________________________
 ### Example:
+protein_coding_genes.bed
+```
+#chromosome	start	    end	      gene_id	        strand	gene_type	      gene_name
+chr1	      13341892	13347134	ENSG00000204481	-	      protein_coding	PRAMEF14
+chr1	      19882395	19912945	ENSG00000169914	+	      protein_coding	OTUD3
+chr3	      128879596	128924003	ENSG00000177646	+	      protein_coding	ACAD9
+chr5	      181193924	181205293	ENSG00000146054	-	      protein_coding	TRIM7
+chr9	      98120975	98192637	ENSG00000106789	-	      protein_coding	CORO2A
+chr9	      108854588	108855986	ENSG00000148156	-	      protein_coding	ACTL7B
+chr10	      100735396	100829944	ENSG00000075891	+	      protein_coding	PAX2
+chr11	      65892049	65900573	ENSG00000175592	-	      protein_coding	FOSL1
+chr13	      27977717	27988693	ENSG00000183463	-	      protein_coding	URAD
+chr14	      74019349	74082863	ENSG00000119636	+	      protein_coding	BBOF1
+chr18	      78979818	79002677	ENSG00000256463	+	      protein_coding	SALL3
+chr18	      79970813	80033949	ENSG00000141759	-	      protein_coding	TXNL4A
+chr19	      17747718	17788568	ENSG00000130475	+	      protein_coding	FCHO1
+chr21	      34418715	34423951	ENSG00000243627	-	      protein_coding	SMIM34
+chr22	      19714503	19724224	ENSG00000184702	+	      protein_coding	SEPTIN5
+chrX	      68829021	68842160	ENSG00000090776	+	      protein_coding	EFNB1
+```
 
