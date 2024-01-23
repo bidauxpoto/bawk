@@ -17,7 +17,7 @@ bawk [--debug] [-f makefile] [-e|extended] [-v|assing var=val] [-M|meta] '{awk p
   -M|meta              print the .META for the given file and exit
   -v|assign var=val    assign the val to the variable var inside the bawk program
   -f makefile          ...
-  --debug              ...
+  --debug              print the command without executing it
 
 ```
 
